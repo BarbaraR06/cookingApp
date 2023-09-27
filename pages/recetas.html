@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="lista-nav">
+          <a href="../../index.html">
+          <li class="li-nav">Logo</li>
+        </a>
+          <div class="menu">
+            <a>
+              <li class="li-nav">Recetas</li>
+            </a>
+            <a href="./novedades.html">
+              <li class="li-nav">Novedades</li>
+            </a>
+            <a href="./favoritos.html">
+              <li class="li-nav">Favoritos</li>
+            </a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main class="mainRecetas">
+      <div class="titulo">
+        <h2 class="titulo-recetas">Recetas</h2>
+        <h3 class="subtitulo">
+          Encuentra el sabor perfecto con nuestra búsqueda de recetas: ¡explora,
+          elige y cocina tu próxima experiencia culinaria!
+        </h3>
+      </div>
+      <div class="boxes">
+        <div class="filtros">
+          <div>
+              <div>
+                <h4 class="buscar">Buscar receta</h4>
+              </div>
+            <form>
+              <label for="fname">Buscar:</label><br>
+              <input type="text" id="fname" name="fname"><br>
+            </form>
+            </div>
+            <div>
+              <form action="/action_page.php">
+                <label for="ingrediente">Buscar por ingrediente:</label>
+                <select id="ingrediente" name="ingredientes">
+                  <option value="Tomate">Tomate</option>
+                  <option value="Queso">Queso</option>
+                  <option value="Cebolla">Cebolla</option>
+                  <option value="Brócoli">Brócoli</option>
+                </select>
+              </form>
+            </div>
+            <div>
+              <form action="/action_page.php">
+                <label for="categoria">Buscar por categoría:</label>
+                <select id="categoria" name="categorias">
+                  <option value="Dulces">Dulces</option>
+                  <option value="Saladas">Saladas</option>
+                  <option value="Fáciles">Fáciles</option>
+                  <option value="Vegetarianas">Vegetarianas</option>
+                </select>
+              </form>
+            </div>
+          </div>
+        <div>
+          <section class="layout">
+            <div class="cardReceta">1</div>
+            <div class="cardReceta">2</div>
+            <div class="cardReceta">3</div>
+            <div class="cardReceta">4</div>
+            <div class="cardReceta">5</div>
+            <div class="cardReceta">6</div>
+            <div class="cardReceta">7</div>
+            <div class="cardReceta">8</div>
+            <div class="cardReceta">9</div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <div class="footer-content">
+          <li class="terminos">Copyright © 2023</li>
+          <li class="terminos">Términos y condiciones</li>
+          <li class="terminos">Contacto</li>
+        </div>
+      </ul>
+  </footer>
+  </body>
+</html>
