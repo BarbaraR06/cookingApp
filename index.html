@@ -1,64 +1,41 @@
 <!DOCTYPE html>
-< lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>gourmArt</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <div class="contenedor">
-    <header>
-      <nav>
-        <ul class="lista-nav">
-          <li class="li-nav"> Logo </li>
-          <div class="menu">
-            <a href="./pages/recetas.html">
-              <li class="li-nav">Recetas</li>
-            </a>
-            <a href="./pages/novedades.html">
-              <li class="li-nav">Novedades</li>
-            </a>
-            <a href="./pages/favoritos.html">
-              <li class="li-nav">Favoritos</li>
-            </a>
-          </div>
-        </ul>
-      </nav>
-    </header>
+  <body id="home">
+    <ul class="topnav">
+      <li><a class="active" href="./pages/recetas.html"> RECIPES </a></li>
+      <li><a href="./pages/novedades.html">NEWS</a></li>
+      <li><a href="./pages/favoritos.html">FAVORITES </a></li>
+      <li class="right"><a href="">Logo </a></li>
+    </ul>
     <main>
-      <div>
+      <div class="mainHome">
         <div>
-          <div>
+          <div class="sushiContainer">
             <a href="./pages/detalleReceta.html">
-              <img
-                class="sushi"
-                src="./assets/sushi.jpg"
-                alt=""
-              />
+              <img class="sushi" src="./assets/sushi.jpg" alt="" />
             </a>
           </div>
           <h1 class="rectangulo">Cómo hacer sushi casero en 5 pasos</h1>
         </div>
         <div class="container">
-          <div>
-            <h2>Pasta carbonara</h2>
-            <div>
-              <img src="./assets/pasta.jpg" alt="" />
+            <div class="containerCard">
+              <img src="./assets/pasta.jpg" style="width:100%" alt="" />
+              <h2>Pasta carbonara</h2>
             </div>
+          <div class="containerCard">
+              <img src="./assets/masa.jpg" style="width:100%" alt="" />
+              <h2>Masa pizza casera</h2>
           </div>
-          <div>
-            <h2>Masa pizza casera</h2>
-            <div>
-              <img src="./assets/masa.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <h2>Tarta de atún</h2>
-            <div>
-              <img src="./assets/tarta.jpg" alt="" />
-            </div>
+            <div class="containerCard">
+              <img src="./assets/tarta.jpg" style="width:100%" alt="" />
+              <h2>Tarta de atún</h2>
           </div>
         </div>
       </div>
@@ -71,7 +48,6 @@
           <li class="terminos">Contacto</li>
         </div>
       </ul>
-  </footer>
+    </footer>
   </body>
-</div>
 </html>
